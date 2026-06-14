@@ -1,0 +1,5 @@
+duplicate_list = [5, 12, 5, 43, 12, 7, 9, 43]
+
+unique_list = list(set(duplicate_list))
+
+print("The list after removing duplicate elements is:", unique_list)

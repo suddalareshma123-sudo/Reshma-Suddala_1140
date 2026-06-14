@@ -1,0 +1,10 @@
+text_string = "Hello World"
+vowels = "aeiouAEIOU"
+vowel_count = 0
+
+for character in text_string:
+    if character in vowels:
+        vowel_count += 1
+
+print(f"The string is: '{text_string}'")
+print(f"Total number of vowels: {vowel_count}")

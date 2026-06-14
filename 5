@@ -1,0 +1,16 @@
+employee_basic_salary = float(input("Enter the employee's basic salary: "))
+
+house_rent_allowance_rate = 0.20
+dearness_allowance_rate = 0.10
+
+calculated_hra = employee_basic_salary * house_rent_allowance_rate
+calculated_da = employee_basic_salary * dearness_allowance_rate
+
+final_gross_salary = employee_basic_salary + calculated_hra + calculated_da
+
+print("\n--- Salary Breakdown Summary ---")
+print(f"Basic Salary:             {employee_basic_salary}")
+print(f"House Rent Allowance (HRA): {calculated_hra} (20% of Basic)")
+print(f"Dearness Allowance (DA):    {calculated_da} (10% of Basic)")
+print("--------------------------------")
+print(f"Total Gross Salary:       {final_gross_salary}")

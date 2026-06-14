@@ -1,0 +1,12 @@
+terms = 7
+first_term = 0
+second_term = 1
+
+print(f"Fibonacci series up to {terms} terms:")
+
+for i in range(terms):
+    print(first_term, end=" ")
+    next_term = first_term + second_term
+    first_term = second_term
+    second_term = next_term
+print()

@@ -1,0 +1,14 @@
+num = int(input("Enter a positive integer: "))
+
+factorial = 1
+original_num = num
+
+if num < 0:
+    print("Error: Factorial does not exist for negative numbers.")
+elif num == 0:
+    print("The factorial of 0 is 1.")
+else:
+    while num > 0:
+        factorial *= num
+        num -= 1
+    print(f"The factorial of {original_num} is {factorial}")

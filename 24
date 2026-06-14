@@ -1,0 +1,8 @@
+mixed_numbers = [14, 23, 8, 45, 66, 71, 92]
+even_count = 0
+
+for num in mixed_numbers:
+    if num % 2 == 0:
+        even_count += 1
+
+print("The total count of even numbers in the list is:", even_count)

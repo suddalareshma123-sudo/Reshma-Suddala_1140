@@ -1,0 +1,13 @@
+test_number = 12321
+number = test_number
+reversed_number = 0
+
+while number > 0:
+    digit = number % 10
+    reversed_number = (reversed_number * 10) + digit
+    number = number // 10
+
+if test_number == reversed_number:
+    print(f"The number {test_number} is a palindrome.")
+else:
+    print(f"The number {test_number} is not a palindrome.")

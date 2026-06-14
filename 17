@@ -1,0 +1,11 @@
+def find_maximum(num1, num2):
+    """Compares two numbers and returns the larger one."""
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+
+a = 15
+b = 27
+maximum = find_maximum(a, b)
+print(f"The maximum number between {a} and {b} is {maximum}.")

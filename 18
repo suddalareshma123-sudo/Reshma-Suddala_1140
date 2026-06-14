@@ -1,0 +1,11 @@
+def calculate_simple_interest(principal, rate, time):
+    """Calculates simple interest based on principal, rate of interest, and time."""
+    interest = (principal * rate * time) / 100
+    return interest
+
+p = 5000  
+r = 7.5   
+t = 3     
+
+si = calculate_simple_interest(p, r, t)
+print(f"The simple interest for a principal of ${p} at a rate of {r}% for {t} years is ${si}.")

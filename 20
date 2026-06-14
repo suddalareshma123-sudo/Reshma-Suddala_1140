@@ -1,0 +1,12 @@
+import math
+
+def calculate_circle_area(radius):
+    """Calculates and returns the area of a circle given its radius."""
+    if radius < 0:
+        return "Radius cannot be negative."
+    area = math.pi * (radius ** 2)
+    return area
+radius_val = 5
+circle_area = calculate_circle_area(radius_val)
+
+print(f"The area of a circle with a radius of {radius_val} is approximately {circle_area:.2f}.")

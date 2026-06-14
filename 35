@@ -1,0 +1,11 @@
+sample_string = "apple"
+frequency_dictionary = {}
+
+for character in sample_string:
+    if character in frequency_dictionary:
+        frequency_dictionary[character] += 1
+    else:
+        frequency_dictionary[character] = 1
+
+print(f"Character frequencies in '{sample_string}':")
+print(frequency_dictionary)

@@ -1,0 +1,5 @@
+my_list = [24, 76, 12, 95, 38, 51]
+
+largest_element = max(my_list)
+
+print("The largest element in the given list is:", largest_element)
